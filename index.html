@@ -30,11 +30,27 @@ layout: uikit-plain
    
 </table>
  
-  <br><div uk-countdown="date: 2021-10-12T10:00:00+02:00">
-    <span class="uk-countdown-number uk-countdown-days"></span> Tage
-    <span class="uk-countdown-number uk-countdown-hours"></span>Stunden
-    <span class="uk-countdown-number uk-countdown-minutes"></span>Minuten
-    <span class="uk-countdown-number uk-countdown-seconds"></span>Sekunden
+  <br><div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2021-10-012T07:10:00+00:00">
+    <div>
+        <div class="uk-countdown-number uk-countdown-days"></div>
+        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+    </div>
+    <div class="uk-countdown-separator">:</div>
+    <div>
+        <div class="uk-countdown-number uk-countdown-hours"></div>
+        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+    </div>
+    <div class="uk-countdown-separator">:</div>
+    <div>
+        <div class="uk-countdown-number uk-countdown-minutes"></div>
+        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+    </div>
+    <div class="uk-countdown-separator">:</div>
+    <div>
+        <div class="uk-countdown-number uk-countdown-seconds"></div>
+        <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+    </div>
+</div>
 
 
 
